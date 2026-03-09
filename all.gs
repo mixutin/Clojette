@@ -1171,12 +1171,9 @@ nativeFns = {
     "typeof": @typeof,
 }
 
-makeNative = function(fn)
-    return {"classID": "native", "__tag__": @__runtimeTag__, "fn": @fn}
-end function
-
 for kv in nativeFns
-    globalEnv.locals[kv.key] = makeNative(@kv.value)
+    globalEnv.locals[kv.key] = @kv.value
+    globalEnv.natives[kv.key] = true
 end for
 
 // boot the stdlib
