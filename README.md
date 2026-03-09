@@ -83,6 +83,9 @@ There are currently a few features that are needed.
 # Contributing
 Pull requests are welcome. To get to know the ins and outs of contributing, check out `CONTRIBUTING.md`. Also make sure to run the tests before making a pull requests. All tests should pass, and if they do not pass, any PR will not be accepted. To make sure regressions do not happen, the test suite MUST pass before a PR is accepted.
 
+# Acknowledgements
+Although I did not know about [Glosure](https://github.com/mahocitrus/Glosure) when I started the project, it is the first Lisp that was implemented in GreyScript. Big props to mahocitrus.
+
 # Resources
 Here are a few resources for learning Lisp. Clojette intentionally feels a lot like Clojure, so I am also linking Clojure resources here.
 
