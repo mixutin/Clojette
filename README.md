@@ -91,9 +91,11 @@ Here are a few resources for learning Lisp. Clojette intentionally feels a lot l
 
 
 https://www.clojure.org/guides/getting_started
+
 https://www.clojure.org/guides/learn/clojure
 
 https://hypirion.com/musings/understanding-persistent-vector-pt-1
+
 https://gigamonkeys.com/book/syntax-and-semantics.html
 
 ## Training problems
@@ -101,22 +103,35 @@ https://projecteuler.net/archives;page=1
 
 ## books
 https://www.braveclojure.com/foreword/
+
 https://annas-archive.gd/md5/ca4e2ea298f40bffd95757bda1eed297
+
 https://gigamonkeys.com/book/
 
 ## Wikipedia articles...
 https://en.wikipedia.org/wiki/Purely_functional_programming
+
 https://en.wikipedia.org/wiki/Functional_programming
+
 https://en.wikipedia.org/wiki/Lisp_(programming_language)
+
 https://en.wikipedia.org/wiki/Clojure
 
 ## Implementing lisp:
 https://norvig.com/lispy.html
+
 https://norvig.com/jscheme.html
+
 https://github.com/nukata/lisp-in-typescript
+
 https://maryrosecook.com/blog/post/little-lisp-interpreter
+
 https://github.com/Indy9000/lisper
+
 [(in Japanese)](https://web.archive.org/web/20101007171742/http://www.aoky.net/articles/peter_norvig/lispy.htm)
+
 https://zenn.dev/ytaki0801/articles/042cfa374223b3a5c03c
+
 https://qiita.com/41semicolon/items/d59f00ebb70b14fdb4e3
+
 
