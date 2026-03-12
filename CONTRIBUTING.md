@@ -5,12 +5,19 @@ Ah, you want to contribute? Welcome welcome, new people are always welcome. Keep
 The code lives in `/src/`. You might see `all.gs`, and might be tempted to modify that. Don't. `all.gs` is the place where *stable releases* live. When a stable release is made, it's packaged into `all.gs` so it's easy for people to download it. The actual code that you should modify lives in `/src/`. 
 
 `clojette.gs` is the entrypoint to the project. It imports everything, and has the main functionality.
+
 `clojette-core.gs` is the core of the interpreter. It has the evaluator, lexer, and tokenizer. All special forms are in eval().
+
 `clojette-env.gs` has the Clojette environment setup. It handles argument binding and the environment stack frames.
+
 `clojette-stdlib.gs` houses the parts of the Clojette standard library that interface with GreyScript. It could be made smaller, if there is a need to embed Clojette somewhere.
+
 `clojette-interop.gs` populates the global environment with the native variables and functions.
+
 `macros.clj` has the standard macros. Enough said.
+
 `stdlib.clj` has the Clojette standard library that is self hosted. Prefer this over the GreyScript standard library.
+
 `tests.clj` houses our test suite. These must be tested against a stable release if they are to be changed.
 
 # Style
