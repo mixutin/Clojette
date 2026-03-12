@@ -25,7 +25,7 @@ The other very special data structure is Vectors. Vectors are instantiated with 
 `let` is a special form that lets you bind vectors as such: `(let [x 1 y 2] ...)`. Big deal.
 
 ## do
-`do` is a special form for sequencing things. You can use `do` as such: ``(do (x))`.
+`do` is a special form for sequencing things. You can use `do` as such: `(do (x))`.
 
 ## if
 `if` Works the exact same way as in Clojure.
