@@ -1585,6 +1585,3 @@ end function
 clojette.eval_clojette = function(code, env=self.globalEnv)
   return self.eval(self.parse(code), env)
 end function
-
-print(clojette.eval_clojette(user_input("Clojette> ")))
-
